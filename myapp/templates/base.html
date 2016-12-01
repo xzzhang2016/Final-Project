@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Life Expectancy: Which Country's Poeple Have The Longest Life and Why? </title>
+
+  <style type="text/css">
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  body{
+    margin: 20px 40px;
+
+  }
+
+/*---------- header css -----------*/
+  #header {
+    background-image: url("https://s15.postimg.org/7qd2kea7v/background2.jpg");
+    background-size: cover;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    background-color: grey;
+    overflow: hidden;
+    font-family:sans-serif;
+  }
+  #header-left{
+    font-size: 20pt;
+    color: white;
+    float: left;
+    padding:15px;
+    font-weight: 150;
+
+  }
+  #header-right {
+    font-size: 20pt;
+    color: white;
+    float: right;
+    padding:15px;
+    font-weight: 150;
+  }
+/*------------- navigation css ------------*/
+  nav ul{
+    background-color: #C49978;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin:0;
+    font-family:sans-serif;
+  }
+  nav ul li{
+    display: inline-block;
+    padding: 10px;
+  }
+
+  nav ul li:hover{
+    background-color:#CDC1B7;
+  }
+
+  form{
+    padding: 20px 0px;
+  }
+
+/*--------dropdown menu--------*/
+
+
+  nav ul li a, .dropbn {
+      display: inline-block;
+      color: white;
+      text-align: right;
+      padding: 0;
+      text-decoration: none;
+
+    }
+
+    nav ul li a:hover, .dropdown:hover .dropbn {
+      background-color: #CDC1B7;
+
+    }
+
+    .dropdown {
+      display: inline-block;
+
+
+
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #CDC1B7;
+      margin-left: -10px;
+      margin-top:10px;
+
+
+
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 10px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      color:white;
+
+
+    }
+
+.dropdown-content a:hover {background-color: #C49978}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+  #plot{
+    float:left;
+  }
+/*-------- data source -------*/
+
+  #link {
+    font-family:sans-serif;
+    color:#994c00;
+    font-weight: bolder;
+
+  }
+
+  section{
+    line-height: 200%;
+    font-size: 16px;
+    padding: 10px;
+    width: 95%;
+
+    margin-bottom: 20px;
+  }
+
+{% block header %}{% endblock %}
+
+  </style>
+</head>
+<body>
+  <div id="header">
+    <div id="header-left">
+      Overview
+    </div>
+    <div id="header-right">
+      Life Expectancy
+  </div>
+ </div>
+  <nav>
+    <ul>
+      <a href="project.html"><li>Home</li></a>
+      <a href="view_map.html"><li class="dropdown">
+        <a href="#" class="dropdn">Overview </a>
+        <div class="dropdown-content">
+          <a href="view_map.html"> Life Expectancy at Birth</a>
+          <a href="change.html">Change in Life Expectancy</a>
+        </div>
+      </li>
+      <a href="third_page.html"><li>Influencing Factors</li></a>
+      <a href="view_pic.html"><li>Plot and Regression</li></a>
+      <a href="datasource.html"><li>Data Sources</li></a>
+    </ul>
+
+  </nav>
+
+</body>
+
+
+<form method="{{ form_method }}">
+  {{ form.country }}
+  {{ form.variable }}
+</form>
+
+{% block content %}{% endblock %}
+</html>

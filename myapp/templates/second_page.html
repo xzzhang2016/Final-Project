@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Life Expectancy: Which Country's Poeple Have The Longest Life and Why? </title>
+
+  <style type="text/css">
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  body{
+    margin: 20px 40px;
+
+  }
+
+/*---------- header css -----------*/
+  #header {
+    background-image: url("https://s15.postimg.org/7qd2kea7v/background2.jpg");
+    background-size: cover;
+    background-position:50% 50%;
+    background-repeat:no-repeat;
+    background-color: grey;
+    overflow: hidden;
+    font-family:sans-serif;
+  }
+  #header-left{
+    font-size: 20pt;
+    color: white;
+    float: left;
+    padding:15px;
+    font-weight: 150;
+
+  }
+  #header-right {
+    font-size: 20pt;
+    color: white;
+    float: right;
+    padding:15px;
+    font-weight: 150;
+  }
+/*------------- navigation css ------------*/
+  nav ul{
+    background-color: #C49978;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin:0;
+    font-family:sans-serif;
+  }
+  nav ul li{
+    display: inline-block;
+    padding: 10px;
+  }
+
+  nav ul li:hover{
+    background-color:#CDC1B7;
+  }
+
+
+  /*--------dropdown menu--------*/
+
+
+    nav ul li a, .dropbn {
+        display: inline-block;
+        color: white;
+        text-align: right;
+        padding: 0;
+        text-decoration: none;
+
+      }
+
+      nav ul li a:hover, .dropdown:hover .dropbn {
+        background-color: #CDC1B7;
+
+      }
+
+      .dropdown {
+        display: inline-block;
+
+
+
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #CDC1B7;
+        margin-left: -10px;
+        margin-top:10px;
+
+
+
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        color:white;
+
+
+      }
+
+  .dropdown-content a:hover {background-color: #C49978}
+
+  .dropdown:hover .dropdown-content {
+  display: block;
+  }
+
+/*------------- table css ---------------*/
+
+table {
+  position:absolute;
+  right:23%;
+  border-width: 0px 0px;
+  border-style: none;
+  border-color: #C49978;
+  background: #F3ECE6;
+
+
+
+  border-spacing: 0px;
+  }
+
+  caption{
+    font-weight: bold;
+    font-size:18px;
+    padding:5px;
+    color:#994c00;
+  }
+  th {
+    color: white;
+    background-color: #C49978;
+  }
+  td{
+    text-align: center;
+  }
+  #darker{
+    background: #F2D9C4;
+  }
+
+/*----- other css ------*/
+  p{
+    text-indent: 30px;
+    color:black;
+    font-size:18px;
+  }
+
+  section{
+    line-height: 200%;
+    font-size: 16px;
+    padding: 10px;
+    width: 95%;
+
+    margin-bottom: 50px;
+  }
+  span{
+    font-size: 20px;
+    font-family:sans-serif;
+    color:#994c00;
+    font-weight: bolder;
+  }
+
+  #special{
+    padding-top:50px;
+    padding-bottom: 100px
+  }
+
+  </style>
+
+<!--The end of css-->
+
+</head>
+<body>
+  <div id="header">
+    <div id="header-left">
+      Overview
+    </div>
+    <div id="header-right">
+      Life Expectancy
+  </div>
+
+ </div>
+  <nav>
+    <ul>
+      <a href="project.html"><li>Home</li></a>
+      <a href="view_map.html"><li class="dropdown">
+      <a href="#" class="dropdn">Overview </a>
+      <div class="dropdown-content">
+        <a href="view_map.html"> Life Expectancy at Birth</a>
+        <a href="change">Change in Life Expectancy</a>
+      </div>
+      </li>
+      <a href="third_page.html"><li>Influencing Factors</li></a>
+      <a href="view_pic.html"><li>Plot and Regression</li></a>
+      <a href="datasource.html"><li>Data Sources</li></a>
+    </ul>
+  </nav>
+
+
+  <section>
+  <!--table----------------------------->
+
+
+  <p>
+    <span>Life Expectancy at Birth </span> is one of the most frequently used measure to study the demographic of countries in the world. It reflects
+    the overall mortality level of a population, and measure the average number of years that a newborn is expected to live
+    if mortality rate remains constant in the future (<em>World Health Organization</em>).
+  </p>
+  <!-- map gose here---------------------->
+  <p>{% block content %}{% endblock %}
+  </p>
+  <p id="special">
+    As you can see from the map, more developed regions of the world generally have higher life expectancies than less developed regions.
+    However, some countries like Saudi Arabia and Kuwait have very high national income per capita but don't have high life expectancies.
+    Alternatively, there are countries life China and Cuba that have relatively low national income but have reasonaly high life expectancies.
+  </p>
+  <p>
+    According to the <em>Golbal Health Observatory (GHO)</em> data, the average life expectancy at birth of the global population was <strong><em>71.4 years</em></strong> in 2015.
+  </p>
+
+
+  <table width=50%  align="right">
+    <Caption>Countries with the Highest Life Expectancy</caption>
+    <tr>
+      <th>Ranking</th>
+      <th>Country</th>
+      <th>Life Expectancy</th>
+    </tr>
+    <tr></tr>
+      <td><strong>1</strong></td>
+      <td>Japan</td>
+      <td>83.5</td>
+    <tr></tr>
+      <td><div id="darker"><strong>2</strong></div></td>
+      <td><div id="darker">Switzerland</div></div></td>
+      <td><div id="darker">83</div></td>
+    <tr></tr>
+      <td><strong>3</strong></td>
+      <td>Singapore</td>
+      <td>82.7</td>
+    <tr></tr>
+      <td><div id="darker"><strong>4</strong></div></td>
+      <td><div id="darker">Australia</div></td>
+      <td><div id="darker">82.5</div></td>
+    <tr></tr>
+      <td><strong>5</strong></td>
+      <td>Iceland</td>
+      <td>82.4</td>
+    <tr></tr>
+      <td><div id="darker"><strong>6</strong></div></td>
+      <td><div id="darker">Spain</div></td>
+      <td><div id="darker">82.4</div></td>
+    <tr></tr>
+      <td><strong>7</strong></td>
+      <td>Italy</td>
+      <td>82.3</td>
+    <tr></tr>
+      <td><div id="darker"><strong>8</strong></div></td>
+      <td><div id="darker">Israel</div></td>
+      <td><div id="darker">82.1</div></td>
+    <tr></tr>
+      <td><strong>9</strong></td>
+      <td>France</td>
+      <td>82</td>
+    <tr></tr>
+      <td><div id="darker"><strong>10</strong></div></td>
+      <td><div id="darker">Sweden</div></td>
+      <td><div id="darker">81.9</div></td>
+    <tr></tr>
+      <td><strong><font color="red">32</font></strong></td>
+      <td><strong><font color="red">United States</font></strong></td>
+      <td><strong><font color="red">78.9</font></strong></td>
+
+  </table>
+
+</section>
+
+</body>
+
+</html>

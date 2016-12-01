@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<table>
+  <Caption><p><font-size=40px><strong>{{ title | default:"My Site" }}</strong></font></p></caption>
+  <tr>
+    <td width=2000PX>
+  {{ map_string | safe }}
+    </td>
+  </tr>
+</table>
+
+
+
+
+{% endblock %}
