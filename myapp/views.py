@@ -30,12 +30,8 @@ from io import BytesIO
 def index(request):
     return HttpResponse("Hello, world. You're at the index.")
 
-
 def project(request):
     return render(request,'project.html')
-
-def second_page(request):
-    return render(request,'second_page.html')
 
 def datasource(request):
     return render(request,'datasource.html')
@@ -137,8 +133,8 @@ def view_map(request):
 
     map_string = m._repr_html_().replace("width:100%;", "width:60%;float:right;", 1)
 
-    return render(request, 'view_map.html', {"title" : "Seven Summits",
-                                           "map_string" : map_string})
+    return render(request, 'view_map.html', { "map_string" : map_string})
+    
 def change(request):
     filename= join(settings.STATIC_ROOT, 'myapp/change.csv')
     a_df = pd.read_csv(filename,index_col = "Country")
@@ -151,7 +147,7 @@ def change(request):
     geo_df.set_index("NAME",inplace = True)
 
     merged = geo_df.join(a_df, how = "left")
-    merged = merged[merged['Numeric'] > 0]
+    merged = merged[merged['Numeric'] > -50]
 
     m = folium.Map([9, -10], tiles='cartodbpositron', zoom_start=2, max_zoom=14, min_zoom=2)
 

@@ -6,7 +6,6 @@ app_name = 'myapp'
 urlpatterns = [
 
     url(r'^project', views.project, name = 'project'),
-    url(r'^second_page', views.second_page, name = 'second_page'),
     url(r'^factors', views.factors, name = 'factors'),
     url(r'^datasource', views.datasource, name = 'datasource'), # November 7
     url(r'^$', views.index, name='index'),
