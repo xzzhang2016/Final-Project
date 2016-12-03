@@ -27,13 +27,13 @@ The variables that can be downloaded in data_collect.py are:
         water_source        Improved water source (% of population with access)
         education_expenditure Adjusted savings: education expenditure (% of GNI)
 
-you can download each data again by entering the code `python collect_data.py 'variable name'` in _terminal. eg: `python collect_data.py national_income'
+you can download data and check the plot of the variable you are interested in by entering the code `python collect_data.py 'variable name you are interested in'` in _terminal_. eg: `python collect_data.py national_income`
 
 Step two: after you download all data you want, you can use merge.py to merge and clean them by entering the code `python merge.py` in _terminal.
 
 Step three: launch the website.
 
-1. Open the directory of 'Final_project'
+1. Open the directory of 'Final-project'
 2. Enter the code `python manage.py runserver` in _terminal_
 3. Load the page ‘http://127.0.0.1:8000/myapp/project’ to the starting page
 4. click on the interested title in the navigation bar and you will be directed to that page. 
