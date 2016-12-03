@@ -22,7 +22,7 @@ Here is what you need to do launch our website:
 
 	1. Cd to our 'Final-Project' directory in _terminal_
 	2. Type in the code 'python manage.py runserver' 
-	3. Copy this address 'http://127.0.0.1:8000/myapp/project°Ø to your browser, and you will see the home page of our website!	
+	3. Copy this address 'http://127.0.0.1:8000/myapp/project to your browser, and you will see the home page of our website!	
 -------------------------------------------------------------------------------------------
 A brief description on the content of our website:	
 
