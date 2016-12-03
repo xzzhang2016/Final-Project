@@ -14,6 +14,7 @@ warnings.filterwarnings('ignore')
 
 import IPython
 
+####wrote fuction for world bank datas collection
 
 def get_who(indicators, param_name):
     params = {
@@ -69,13 +70,18 @@ data_name:
     sys.exit()
 
 r = requests.session()
-# WHO life expectancy
+#### collect WHO life expectancy
 rsp = r.get(
     'http://apps.who.int/gho/athena/api/GHO/WHOSIS_000001?format=csv&filter=COUNTRY:*;YEAR:2013;SEX:BTSX&x-sideaxis=COUNTRY')
 with open('whohlve_origin.csv', 'w') as f:
     f.write(rsp.text)
 
+rsp = r.get(
+    'http://apps.who.int/gho/athena/api/GHO/WHOSIS_000001?format=csv&filter=COUNTRY:*;YEAR:2000;SEX:BTSX&x-sideaxis=COUNTRY')
+with open('whohlve_origin_2000.csv', 'w') as f:
+    f.write(rsp.text)
 
+###collect world bank data
 # Adjusted net national income per capita NY.ADJ.NNTY.PC.CD
 get_who('NY.ADJ.NNTY.PC.CD', 'national_income')
 
@@ -103,7 +109,7 @@ get_who('SH.H2O.SAFE.ZS','water_source')
 #Adjusted savings: education expenditure (% of GNI)
 get_who('NY.ADJ.AEDU.GN.ZS','education_expenditure')
 
-
+####oberserve the regression line and create database
 configlist = [
                 ('NY.ADJ.NNTY.PC.CD', 'national_income'),
                 ('EN.POP.DNST', 'density'),
@@ -148,6 +154,4 @@ if sys.argv[1] in [i[1] for i in configlist]:
     plt.ylabel('life expectancy')
     plt.xlabel(data_name)
     plt.title('life expectancy and '+sys.argv[1]+' regression')
-    plt.show() # 改成 plt.savefig('regression.png')
-
-# IPython.embed()
+    plt.show()

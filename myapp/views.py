@@ -134,11 +134,11 @@ def view_map(request):
     map_string = m._repr_html_().replace("width:100%;", "width:60%;float:right;", 1)
 
     return render(request, 'view_map.html', { "map_string" : map_string})
-    
+
 def change(request):
     filename= join(settings.STATIC_ROOT, 'myapp/change.csv')
     a_df = pd.read_csv(filename,index_col = "Country")
-    a_df["Numeric"] = a_df["Numeric"].astype(int)
+    a_df["change"] = a_df["change"].astype(int)
 
     filename = join(settings.STATIC_ROOT, 'myapp/TM_WORLD_BORDERS_SIMPL-0.3.shp')
 
@@ -147,11 +147,11 @@ def change(request):
     geo_df.set_index("NAME",inplace = True)
 
     merged = geo_df.join(a_df, how = "left")
-    merged = merged[merged['Numeric'] > -50]
+    merged = merged[merged['change'] > -50]
 
     m = folium.Map([9, -10], tiles='cartodbpositron', zoom_start=2, max_zoom=14, min_zoom=2)
 
-    ft = "Numeric"
+    ft = "change"
     cmap = folium.colormap.linear.YlOrRd.scale(merged[ft].min(), merged[ft].max())
 
     folium.GeoJson(merged,
