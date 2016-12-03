@@ -16,9 +16,8 @@ http://data.worldbank.org/products/wdi
 In our project folder, you can find data_collect.py. This is the code we wrote to download the data from API. 
 	For Example, if run the code 'python collect_data.py national _ncome' in _terminal_, it will download both the data from World Bank and the life expectancy data,
 	 and also generate a plotted graph showing the correlation between national income per capita and life expectancy. 
-	
-There is also a file called 'python merge.py' in the folder, which contains the code we wrote to merge all the variables we downloaded for each country. 
--------------------------------------------------------------------------------------------
+	There is also a file called 'python merge.py' in the folder, which contains the code we wrote to merge all the variables we downloaded for each country. 
+
 Here is what you need to do launch our website:
 
 	1. Cd to our 'Final-Project' directory in _terminal_
@@ -37,8 +36,8 @@ A brief description on the content of our website:
    4. On the _Influencing Factors_ page, you will be able to see the data for each country by selecting the country you are 
    	  interested in in the dropdown bar.
    5. The _Plot and Regression_ page will show you the plot on a variable of your choice and life expectancy.
-   5. The final page _Data Sources_ has the links to the two data sources we used in the project.    
----------------------------------------------------------------------------------------------
+   6. The final page _Data Sources_ has the links to the two data sources we used in the project.    
+
 
 Thank you, and have a great winter break! 
 	   
