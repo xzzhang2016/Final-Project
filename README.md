@@ -2,7 +2,7 @@
 Final project of Xinzhu Zhang, Xiaoyu Gao and Tao Chen
 
 
-Our project studies which possible factors affecting country's life expectancy are.  
+Our project studies which possible factors are affecting country's life expectancy.  
 
 Data source(links included in the page):
 1:WHO: 2013 Global Health Observatory (GHO) Data
