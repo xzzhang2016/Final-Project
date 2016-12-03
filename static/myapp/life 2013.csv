@@ -1,184 +1,183 @@
-Country,Numeric
-Argentina,76.0191
-Azerbaijan,72.23805
-Benin,59.45502
-Burkina Faso,58.95446
-Cameroon,56.43423
-Colombia,74.39403
-Czechia,78.22158
-Guinea,58.84431
-Jordan,73.85904
-Japan,83.52387
-Cambodia,67.79114
-Lebanon,74.8673
-Malawi,56.68938
-Pakistan,65.98781
-Romania,74.60338
-Singapore,82.67023
-Solomon Islands,68.82217
-Turkmenistan,65.35018
-Timor-Leste,67.67768
-"Tanzania, United Republic of",59.69819
-Yemen,65.35676
-United Arab Emirates,76.70663
-Australia,82.46722
-Bahamas,74.84582
-Brazil,74.73164
-China,75.58276
-Comoros,62.8992
-Cabo Verde,72.79063
-Germany,80.55242
-Eritrea,64.00847
-Ethiopia,63.74931
-Ghana,61.91974
-Guyana,65.93163
-Hungary,75.47681
-Iceland,82.41537
-Kyrgyzstan,70.69394
-Morocco,73.89715
-"Macedonia, Republic of",75.32211
-Norway,81.48119
-Oman,76.16706
-Sudan,63.50551
-Sweden,81.94165
-Chad,52.18766
-Tonga,73.16799
-Turkey,75.18435
-Uganda,60.68042
-Saint Vincent and the Grenadines,72.68603
-Vanuatu,71.59818
-Belgium,80.66297
-Brunei Darussalam,77.07726
-"Congo, The Democratic Republic of the",58.77653
-Djibouti,62.67741
-Denmark,80.14989
-Spain,82.38602
-Georgia,74.54204
-Croatia,77.65092
-"Iran, Islamic Republic of",75.26443
-Israel,82.10788
-"Korea, Republic of",81.68476
-Kuwait,74.45224
-Lithuania,73.0193
-Nepal,69.27148
-New Zealand,81.29157
-Philippines,68.06879
-"Korea, Democratic People's Republic of",70.06003
-Saudi Arabia,74.25284
-El Salvador,72.96488
-Suriname,71.24409
-Seychelles,72.89406
-Uruguay,76.76608
-"Venezuela, Bolivarian Republic of",73.83881
-Zimbabwe,57.99748
-Albania,77.20967
-Armenia,74.36308
-Burundi,58.60011
-Bulgaria,74.12443
-Bahrain,76.65276
-Belize,69.79741
-"Bolivia, Plurinational State of",70.0771
-Bhutan,69.06744
-Botswana,64.21846
-Congo,63.94545
-Costa Rica,79.44212
-Ecuador,76.01488
-Egypt,70.85864
-Finland,80.7297
-United Kingdom,80.68333
-Equatorial Guinea,57.38615
-Honduras,74.27006
-Haiti,62.69797
-India,67.61797
-Kazakhstan,69.52629
-Luxembourg,81.44892
-Latvia,74.06218
-Madagascar,64.71928
-Maldives,77.88964
-Mexico,76.63389
-Malta,81.09828
-Montenegro,75.80652
-Mauritania,62.74218
-Nigeria,53.16155
-Russian Federation,69.99681
-Somalia,54.20847
-Sao Tome and Principe,67.14532
-Slovakia,76.09109
-Thailand,74.46014
-Tajikistan,69.27447
-Ukraine,70.98906
-Viet Nam,75.70722
-Samoa,73.58279
-Afghanistan,59.92601
-Antigua and Barbuda,76.07896
-Bangladesh,71.01307
-Belarus,71.72385
-Switzerland,82.96751
-Chile,80.14998
-Cuba,78.69524
-Estonia,76.88
-Fiji,69.56206
-Gabon,64.58082
-Greece,80.63278
-Grenada,73.32068
-Ireland,80.96538
-Italy,82.32586
-Kenya,62.57568
-Libya,72.85607
-Saint Lucia,74.77778
-Myanmar,66.15154
-Mauritius,74.10355
-Niger,60.89352
-Panama,77.50749
-Peru,75.28803
-Portugal,80.61548
-Paraguay,73.76443
-Rwanda,65.23911
-Senegal,66.03338
-Sierra Leone,50.39339
-Swaziland,57.5793
-Syrian Arab Republic,63.61972
-Trinidad and Tobago,70.98109
-Tunisia,74.94267
-Angola,51.07346
-Austria,81.06575
-Bosnia and Herzegovina,77.02735
-Barbados,75.21317
-Central African Republic,49.93576
-Canada,81.82275
-C̫te d'Ivoire,52.34333
-Cyprus,80.14259
-Dominican Republic,73.39816
-Algeria,75.26168
-France,81.99919
-"Micronesia, Federated States of",69.19045
-Gambia,60.55776
-Guinea-Bissau,58.12134
-Guatemala,71.40676
-Indonesia,68.704
-Iraq,69.45579
-Jamaica,75.58058
-Kiribati,65.84379
-Lao People's Democratic Republic,64.86088
-Liberia,61.10963
-Sri Lanka,74.55085
-Lesotho,52.11234
-"Moldova, Republic of",71.71924
-Mali,57.26088
-Mongolia,68.10599
-Mozambique,55.27068
-Malaysia,74.60231
-Namibia,66.08712
-Nicaragua,73.87334
-Netherlands,81.3809
-Papua New Guinea,62.41537
-Poland,77.05921
-Qatar,77.94932
-Serbia,75.2808
-South Sudan,56.37253
-Slovenia,80.4547
-Togo,59.41954
-United States,78.85654
-Uzbekistan,69.06442
-South Africa,60.89896
-Zambia,60.28272
+Country,Numeric,,,,,,,  
+Argentina,76.0191,,,,,,,  
+Azerbaijan,72.23805,,,,,,,  
+Benin,59.45502,,,,,,,  
+Burkina Faso,58.95446,,,,,,,  
+Cameroon,56.43423,,,,,,,  
+Colombia,74.39403,,,,,,,  
+Czechia,78.22158,,,,,,,  
+Guinea,58.84431,,,,,,,  
+Jordan,73.85904,,,,,,,  
+Japan,83.52387,,,,,,,  
+Cambodia,67.79114,,,,,,,  
+Lebanon,74.8673,,,,,,,  
+Malawi,56.68938,,,,,,,  
+Pakistan,65.98781,,,,,,,  
+Romania,74.60338,,,,,,,  
+Singapore,82.67023,,,,,,,  
+Solomon Islands,68.82217,,,,,,,  
+Turkmenistan,65.35018,,,,,,,  
+Timor-Leste,67.67768,,,,,,,  
+United Republic of Tanzania,59.69819,,,,,,,  
+Yemen,65.35676,,,,,,,  
+United Arab Emirates,76.70663,,,,,,,  
+Australia,82.46722,,,,,,,  
+Bahamas,74.84582,,,,,,,  
+Brazil,74.73164,,,,,,,  
+China,75.58276,,,,,,,  
+Comoros,62.8992,,,,,,,  
+Cape Verde,72.79063,,,,,,,  
+Germany,80.55242,,,,,,,  
+Eritrea,64.00847,,,,,,,  
+Ethiopia,63.74931,,,,,,,  
+Ghana,61.91974,,,,,,,  
+Guyana,65.93163,,,,,,,  
+Hungary,75.47681,,,,,,,  
+Iceland,82.41537,,,,,,,  
+Kyrgyzstan,70.69394,,,,,,,  
+Morocco,73.89715,,,,,,,  
+Macedonia Republic of,75.32211,,,,,,,  
+Norway,81.48119,,,,,,,  
+Oman,76.16706,,,,,,,  
+Sudan,63.50551,,,,,,,  
+Sweden,81.94165,,,,,,,  
+Chad,52.18766,,,,,,,  
+Tonga,73.16799,,,,,,,  
+Turkey,75.18435,,,,,,,  
+Uganda,60.68042,,,,,,,  
+Saint Vincent and the Grenadines,72.68603,,,,,,,  
+Vanuatu,71.59818,,,,,,,  
+Belgium,80.66297,,,,,,,  
+Brunei Darussalam,77.07726,,,,,,,  
+Democratic Republic of the Congo,58.77653,,,,,,,  
+Djibouti,62.67741,,,,,,,  
+Denmark,80.14989,,,,,,,  
+Spain,82.38602,,,,,,,  
+Georgia,74.54204,,,,,,,  
+Croatia,77.65092,,,,,,,  
+Iran (Islamic Republic of),75.26443,,,,,,,  
+Israel,82.10788,,,,,,,  
+"Korea, Republic of",81.68476,,,,,,,  
+Kuwait,74.45224,,,,,,,  
+Lithuania,73.0193,,,,,,,  
+Nepal,69.27148,,,,,,,  
+New Zealand,81.29157,,,,,,,  
+Philippines,68.06879,,,,,,,  
+"Korea, Democratic People's Republic of",70.06003,,,,,,,  
+Saudi Arabia,74.25284,,,,,,,  
+El Salvador,72.96488,,,,,,,  
+Suriname,71.24409,,,,,,,  
+Seychelles,72.89406,,,,,,,  
+Uruguay,76.76608,,,,,,,  
+Venezuela,73.83881,,,,,,,  
+Zimbabwe,57.99748,,,,,,,  
+Albania,77.20967,,,,,,,  
+Armenia,74.36308,,,,,,,  
+Burundi,58.60011,,,,,,,  
+Bulgaria,74.12443,,,,,,,  
+Bahrain,76.65276,,,,,,,  
+Belize,69.79741,,,,,,,  
+Bolivia,70.0771,,,,,,,  
+Bhutan,69.06744,,,,,,,  
+Botswana,64.21846,,,,,,,  
+Congo,63.94545,,,,,,,  
+Costa Rica,79.44212,,,,,,,  
+Ecuador,76.01488,,,,,,,  
+Egypt,70.85864,,,,,,,  
+Finland,80.7297,,,,,,,  
+United Kingdom,80.68333,,,,,,,  
+Equatorial Guinea,57.38615,,,,,,,  
+Honduras,74.27006,,,,,,,  
+Haiti,62.69797,,,,,,,  
+India,67.61797,,,,,,,  
+Kazakhstan,69.52629,,,,,,,  
+Luxembourg,81.44892,,,,,,,  
+Latvia,74.06218,,,,,,,  
+Madagascar,64.71928,,,,,,,  
+Maldives,77.88964,,,,,,,  
+Mexico,76.63389,,,,,,,  
+Malta,81.09828,,,,,,,  
+Montenegro,75.80652,,,,,,,  
+Mauritania,62.74218,,,,,,,  
+Nigeria,53.16155,,,,,,,  
+Russia,69.99681,,,,,,,  
+Somalia,54.20847,,,,,,,  
+Sao Tome and Principe,67.14532,,,,,,,  
+Slovakia,76.09109,,,,,,,  
+Thailand,74.46014,,,,,,,  
+Tajikistan,69.27447,,,,,,,  
+Ukraine,70.98906,,,,,,,  
+Viet Nam,75.70722,,,,,,,  
+Samoa,73.58279,,,,,,,  
+Afghanistan,59.92601,,,,,,,  
+Antigua and Barbuda,76.07896,,,,,,,  
+Bangladesh,71.01307,,,,,,,  
+Belarus,71.72385,,,,,,,  
+Switzerland,82.96751,,,,,,,  
+Chile,80.14998,,,,,,,  
+Cuba,78.69524,,,,,,,  
+Estonia,76.88,,,,,,,  
+Fiji,69.56206,,,,,,,  
+Gabon,64.58082,,,,,,,  
+Greece,80.63278,,,,,,,  
+Grenada,73.32068,,,,,,,  
+Ireland,80.96538,,,,,,,  
+Italy,82.32586,,,,,,,  
+Kenya,62.57568,,,,,,,  
+Libyan Arab Jamahiriya,72.85607,,,,,,,  
+Saint Lucia,74.77778,,,,,,,  
+Myanmar,66.15154,,,,,,,  
+Mauritius,74.10355,,,,,,,  
+Niger,60.89352,,,,,,,  
+Panama,77.50749,,,,,,,  
+Peru,75.28803,,,,,,,  
+Portugal,80.61548,,,,,,,  
+Paraguay,73.76443,,,,,,,  
+Rwanda,65.23911,,,,,,,  
+Senegal,66.03338,,,,,,,  
+Sierra Leone,50.39339,,,,,,,  
+Swaziland,57.5793,,,,,,,  
+Syrian Arab Republic,63.61972,,,,,,,  
+Trinidad and Tobago,70.98109,,,,,,,  
+Tunisia,74.94267,,,,,,,  
+Angola,51.07346,,,,,,,  
+Austria,81.06575,,,,,,,  
+Bosnia and Herzegovina,77.02735,,,,,,,  
+Barbados,75.21317,,,,,,,  
+Central African Republic,49.93576,,,,,,,  
+Canada,81.82275,,,,,,,  
+Cyprus,80.14259,,,,,,,  
+Dominican Republic,73.39816,,,,,,,  
+Algeria,75.26168,,,,,,,  
+France,81.99919,,,,,,,  
+Micronesia Federated States of,69.19045,,,,,,,  
+Gambia,60.55776,,,,,,,  
+Guinea-Bissau,58.12134,,,,,,,  
+Guatemala,71.40676,,,,,,,  
+Indonesia,68.704,,,,,,,  
+Iraq,69.45579,,,,,,,  
+Jamaica,75.58058,,,,,,,  
+Kiribati,65.84379,,,,,,,  
+Lao People's Democratic Republic,64.86088,,,,,,,  
+Liberia,61.10963,,,,,,,  
+Sri Lanka,74.55085,,,,,,,  
+Lesotho,52.11234,,,,,,,  
+Republic of Moldova,71.71924,,,,,,,  
+Mali,57.26088,,,,,,,  
+Mongolia,68.10599,,,,,,,  
+Mozambique,55.27068,,,,,,,  
+Malaysia,74.60231,,,,,,,  
+Namibia,66.08712,,,,,,,  
+Nicaragua,73.87334,,,,,,,  
+Netherlands,81.3809,,,,,,,  
+Papua New Guinea,62.41537,,,,,,,  
+Poland,77.05921,,,,,,,  
+Qatar,77.94932,,,,,,,  
+Serbia,75.2808,,,,,,,  
+South Sudan,56.37253,,,,,,,  
+Slovenia,80.4547,,,,,,,  
+Togo,59.41954,,,,,,,  
+United States,78.85654,,,,,,,  
+Uzbekistan,69.06442,,,,,,,  
+South Africa,60.89896,,,,,,,  
+Zambia,60.28272,,,,,,,

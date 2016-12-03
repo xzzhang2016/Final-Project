@@ -40,7 +40,7 @@ def second_page(request):
 def datasource(request):
     return render(request,'datasource.html')
 
-def third_page(request):
+def factors(request):
 
     country = request.GET.get('country', 'China')
 
@@ -55,13 +55,13 @@ def third_page(request):
     table = table.replace('style="text-align: right;"', "")
 
     params = {'title' : country.title,
-              'form_action' : reverse_lazy('myapp:thrid_page'),
+              'form_action' : reverse_lazy('myapp:factors'),
               'form_method' : 'get',
               'form' : CountriesForm({'country' : country}),
               'html_table' : table}
 
 
-    return render(request, 'third_page.html', params)
+    return render(request, 'factors.html', params)
 
 
 
